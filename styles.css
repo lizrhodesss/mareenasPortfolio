@@ -26,10 +26,29 @@ body {
 
 .intro p {
   justify-content: center;
-  margin: 15px;
+  /* margin: 15px; */
+  margin-left: 15px;
+}
+/* had to set the BG color on this h2, cuz the * was adding a second background */
+.intro h2 {
+  background-color: transparent;
 }
 
 
+
+.intro img {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 10px
+}
+
+.booking {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px
+}
 
 li, a, button {
   font-family: "Bruno Ace", sans-serif;
@@ -80,3 +99,15 @@ button:hover {
   text-align: left;
   padding: 2px;
 } */
+
+.gallery img {
+  box-shadow: 0 0 50px rgba(154, 2, 0, 0.5);
+  border-radius: 5px;
+  margin: 10px
+}
+.footer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  margin:25px
+}
