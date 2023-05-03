@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
-/* 
+
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center; */
+  align-items: center; 
     /*if align items is active then the nav bar centers and smooshes */
-  /* flex-wrap: wrap; } */
+   flex-wrap: wrap;
+  } 
 
 
 * {
@@ -17,39 +19,6 @@ body {
   font-family: "Bruno Ace", sans-serif;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.intro p {
-  justify-content: center;
-  /* margin: 15px; */
-  margin-left: 15px;
-}
-/* had to set the BG color on this h2, cuz the * was adding a second background */
-.intro h2 {
-  background-color: transparent;
-}
-
-
-
-.intro img {
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  margin: 10px
-}
-
-.booking {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px
-}
-
 li, a, button {
   font-family: "Bruno Ace", sans-serif;
   font-weight: 500;
@@ -57,16 +26,27 @@ li, a, button {
   color: #edf0f1;
   text-decoration: none;
 }
+
 header{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 5%;
+  padding: 20px;
+  width: 100%
 }
-.logo{
-    margin-right: auto;
-    font-weight: bold;
+
+.logo {
+  margin-right: auto;
+  font-weight: bold;
 }
+
+.logo {
+  text-align: left;
+  padding: 2px;
+  width: 100px;
+  float: left;
+}
+
 .nav_links {
   list-style: none;
 }
@@ -95,10 +75,39 @@ button {
 button:hover {
   background-color: rgb(154, 2, 200, 0.5);
 }
-/* .logo{
-  text-align: left;
-  padding: 2px;
-} */
+
+
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro p {
+  justify-content: center;
+  /* margin: 15px; */
+  margin-left: 15px;
+}
+/* had to set the BG color on this h2, cuz the * was adding a second background */
+.intro h2 {
+  background-color: transparent;
+}
+
+.intro img {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 10px
+}
+
+.booking {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px
+}
 
 .gallery img {
   box-shadow: 0 0 50px rgba(154, 2, 0, 0.5);
@@ -109,5 +118,12 @@ button:hover {
   display: flex;
   /* align-items: center; */
   justify-content: space-around;
-  margin:25px
+  margin:25px;
+}
+.footer a {
+  background-color: transparent;
+  color: black;
+}
+.footer a:hover {
+  color: rgb(154, 2, 200)
 }
