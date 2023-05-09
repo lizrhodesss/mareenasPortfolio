@@ -29,14 +29,14 @@ li, a, button {
   text-decoration: none;
 }
 
-header{
+header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 20px;
   width: 100%;
   background-color: rgb(154, 2, 200, 0.2);
-  box-shadow: 0 0 50px rgb(154, 2, 200, 0.5);
+  box-shadow: 0 0 50px rgba(10, 0, 13, 0.5);
   padding-top: 10px;
   margin-bottom: 50px;
 
